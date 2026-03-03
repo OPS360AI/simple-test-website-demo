@@ -194,6 +194,23 @@ section {
     color: var(--white);
 }
 
+.powered-by {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.powered-by a {
+    color: #60a5fa;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.powered-by a:hover {
+    color: var(--white);
+    text-decoration: underline;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero-title {

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Test Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Using Lucide Icons via CDN for simplicity as requested in guidelines -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <h1 class="hero-title">Welcome to <span id="animated-text">Simple Test Website</span></h1>
+            <p class="hero-subtitle">A minimal demonstration for deployment workflows.</p>
+            <a href="#contact" class="btn btn-primary">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section id="info" class="info-section">
+        <div class="container">
+            <h2 class="section-title">About This Project</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <i data-lucide="code" class="icon"></i>
+                    <h3>Clean Code</h3>
+                    <p>Built with vanilla HTML, CSS, and JavaScript for maximum performance and simplicity.</p>
+                </div>
+                <div class="info-card">
+                    <i data-lucide="zap" class="icon"></i>
+                    <h3>Fast Deployment</h3>
+                    <p>Designed to be easily deployed to GitHub Pages or any static hosting service.</p>
+                </div>
+                <div class="info-card">
+                    <i data-lucide="layout" class="icon"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Fully responsive layout that looks great on desktop, tablet, and mobile devices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-card">
+                <p>Feel free to reach out for collaborations or questions.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i data-lucide="github"></i> GitHub</a>
+                    <a href="#" class="social-link"><i data-lucide="twitter"></i> Twitter</a>
+                    <a href="mailto:hello@example.com" class="social-link"><i data-lucide="mail"></i> Email</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Simple Test Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
